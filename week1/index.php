@@ -16,13 +16,11 @@
             <p>
                 <?php
                     echo "Hello World!";
-                    echo "<br>";
-                    echo "<br>";
                     echo "<p>Hello," . " " . "world" . "!!</p>";
                     echo 5*7;
                     $myName = "Hristo Hristov";
                     $myAge = 20;
-                    echo "My name is " . $myName . " and I am " . $myAge . " years old.";
+                    echo "<br>" . "My name is " . $myName . " and I am " . $myAge . " years old.";
                 ?>
             </p>
         </body>
