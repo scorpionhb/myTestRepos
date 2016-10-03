@@ -76,17 +76,17 @@
                         if($todayGood == 0){
                             print "On the " . $count . " of the month specs are available<br>";
                             $specs--;
-                            print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
+                            //print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
                         }
                         if($todayGood == 1){
                             print "On the " . $count . " of the month mugs are available<br>";
                             $mugs--;
-                            print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
+                            //print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
                         }
                         if($todayGood == 2){
                             print "On the " . $count . " of the month sausage rolls are available<br>";
                             $rolls--;
-                            print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
+                            //print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
                         }
                         $count++;
                     }while($specs !== 0 && $mugs !== 0 && $rolls !== 0);
