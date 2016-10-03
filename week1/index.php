@@ -74,15 +74,15 @@
                     do{
                         $todayGood = rand(0, 2);
                         if($todayGood == 0){
-                            print "On the " . $count . " of the month specs are available";
+                            print "On the " . $count . " of the month specs are available<br>";
                             $specs--;
                         }
                         if($todayGood == 1){
-                            print "On the " . $count . " of the month mugs are available";
+                            print "On the " . $count . " of the month mugs are available<br>";
                             $mugs--;
                         }
                         if($todayGood == 2){
-                            print "On the " . $count . " of the month sausage rolls are available";
+                            print "On the " . $count . " of the month sausage rolls are available<br>";
                             $rolls--;
                         }
                         $count++;
