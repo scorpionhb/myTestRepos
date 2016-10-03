@@ -101,7 +101,7 @@
                     print $number*$number;
                 }
 
-                function($name, $specs, $mugs, $rolls){
+                function wanted($name, $specs, $mugs, $rolls){
                     $calc = $specs*$mugs*$rolls;
                     $award = 10*(square($calc)/2);
                     echo "Wanted: " . $name . "<br>";
@@ -111,6 +111,8 @@
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: £" . $award . "<br>";
                 }
+
+                wanted("Hristo Hristov", 10, 10, 8);
                 ?>
             </p>
 
