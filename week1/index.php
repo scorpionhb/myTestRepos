@@ -109,8 +109,9 @@
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
-                    $reward = award($specs, $mugs, $rolls) * $var;
-                    print $reward;
+                    $calc = award($specs, $mugs, $rolls);
+                    print $calc * $var;
+
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
