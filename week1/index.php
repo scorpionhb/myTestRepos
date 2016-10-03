@@ -28,10 +28,23 @@
                     echo "I get printed!";
                     //I do not!
                     /*
-                     * dsadajidsajfdsjfksa neither do I. :( 
+                     * dsadajidsajfdsjfksa neither do I. :(
                      */
                 ?>
             </p>
+            <p>
+                <?php
+                    $name = "Edgar";
+                    if ($name == "Simon"){
+                        echo "I know you!";
+                    } else {
+                        echo "Who are you?";
+                    }
+                ?>
+            </p>
+
+
+
         </body>
 
 </html>
