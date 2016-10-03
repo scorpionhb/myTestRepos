@@ -98,7 +98,7 @@
                 <?php
                 //functions testing
                 function square($number){
-                    print $number*$number;
+                    echo $number*$number;
                 }
 
                 function wanted($name, $specs, $mugs, $rolls){
