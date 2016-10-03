@@ -97,20 +97,19 @@
             <p>
                 <?php
                 //functions testing
-                function square($number){
-                    print $number*$number;
+                function award($x, $y, $z){
+                    print $x*$y*$z*$x*$y*$z;
                 }
 
                 function wanted($name, $specs, $mugs, $rolls){
-                    $calc = $specs*$mugs*$rolls;
-                    square($calc);
+
                     echo "Wanted: " . $name . "<br>";
                     echo "Known to be in possession of the following items:" . "<br>";
                     echo "Specs: (" . $specs . ")<br>";
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
-                    echo square($calc)*5 . "<br>";
+                    echo award($specs, $mugs, $rolls)*5 . "<br>";
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
