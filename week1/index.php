@@ -90,6 +90,7 @@
                         }
                         $count++;
                     }while($specs !== 0 && $mugs !== 0 && $rolls !== 0);
+                    echo "No more goods are available this month. Sorry. "
                 ?>
             </p>
 
