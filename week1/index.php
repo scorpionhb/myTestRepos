@@ -112,7 +112,7 @@
                     echo "Award for capture: £" . $award . "<br>";
                 }
 
-                wanted("Hristo Hristov", 10, 10, 8);
+                wanted("Hristo Hristov", 2, 10, 8);
                 ?>
             </p>
 
