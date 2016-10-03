@@ -110,7 +110,7 @@
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
                     $reward = award($specs, $mugs, $rolls) * $var;
-                    echo $reward;
+                    print $reward;
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
