@@ -109,7 +109,7 @@
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
-                    echo square($calc)/2*10 . "<br>";
+                    echo square($calc)*5 . "<br>";
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
