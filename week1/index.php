@@ -102,14 +102,14 @@
                 }
 
                 function wanted($name, $specs, $mugs, $rolls){
-                    $var = 5;
+                    $var = "5";
                     echo "Wanted: " . $name . "<br>";
                     echo "Known to be in possession of the following items:" . "<br>";
                     echo "Specs: (" . $specs . ")<br>";
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
-                    $pls =  award($specs, $mugs, $rolls) + $var ;
+                    $pls = award($specs, $mugs, $rolls) + $var ;
                     print $pls;
                 }
 
