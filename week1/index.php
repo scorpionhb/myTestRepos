@@ -58,7 +58,13 @@
 
                 ?>
             </p>
-
+            <p>
+                <?php
+                    $myArray = array("do", "re", "mi");
+                    echo $myArray[0];
+                    $myArray[1] = "la";
+                ?>
+            </p>
 
 
         </body>
