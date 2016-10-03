@@ -107,7 +107,7 @@
                     echo "Specs: (" . $specs . ")<br>";
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
-                    echo "Award for capture: $";
+                    echo "Award for capture: £";
 
                 }
 
