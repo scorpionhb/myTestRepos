@@ -98,7 +98,7 @@
                 <?php
                 //functions testing
                 function square($number){
-                    echo $number*$number;
+                    print $number*$number;
                 }
 
                 function wanted($name, $specs, $mugs, $rolls){
@@ -109,7 +109,7 @@
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
-                    echo 10*(square($calc)/2) . "<br>";
+                    echo 5*(square($calc)) . "<br>";
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
