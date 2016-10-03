@@ -23,6 +23,15 @@
                     echo "<br>" . "My name is " . $myName . " and I am " . $myAge . " years old.";
                 ?>
             </p>
+            <p>
+                <?php
+                    echo "I get printed!";
+                    //I do not!
+                    /*
+                     * dsadajidsajfdsjfksa neither do I. :( 
+                     */
+                ?>
+            </p>
         </body>
 
 </html>
