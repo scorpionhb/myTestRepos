@@ -16,11 +16,10 @@
             <p>
                 <?php
                     echo "Hello World!";
-                    echo "/n";
-                    echo "Hello," . " " . "world" . "!!";
+                    echo "<p>Hello," . " " . "world" . "!!</p>";
                     echo 5*7;
                     $myName = "Hristo Hristov";
-                    
+
                 ?>
             </p>
         </body>
