@@ -112,7 +112,7 @@
                     echo 10*(square($calc)/2) . "<br>";
                 }
 
-                wanted("Hristo Hristov", 2, 10, 8);
+                wanted("Hristo Hristov", 2, 1, 2);
                 ?>
             </p>
 
