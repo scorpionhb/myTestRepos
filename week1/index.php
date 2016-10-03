@@ -103,6 +103,7 @@
 
                 function wanted($name, $specs, $mugs, $rolls){
                     $calc = $specs*$mugs*$rolls;
+                    square($calc);
                     echo "Wanted: " . $name . "<br>";
                     echo "Known to be in possession of the following items:" . "<br>";
                     echo "Specs: (" . $specs . ")<br>";
