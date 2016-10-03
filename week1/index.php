@@ -36,10 +36,26 @@
                 <?php
                     $name = "Edgar";
                     if ($name == "Simon"){
-                        echo "I know you!";
+                        print "I know you!";
                     } else {
-                        echo "Who are you?";
+                        print "Who are you?";
                     }
+                ?>
+            </p>
+            <p>
+                <?php
+                    $numOfHobbits = 2;
+                    switch($numOfHobbits){
+                        case 1:
+                            echo "1 sad hobbit";
+                            break;
+                        case 2:
+                            echo "2 happy hobbits";
+                            break;
+                        default:
+                            echo "All hobbits have gone home";
+                    }
+
                 ?>
             </p>
 
