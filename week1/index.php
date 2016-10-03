@@ -110,7 +110,7 @@
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
                     $calc = award($specs, $mugs, $rolls);
-                    print $calc * $var;
+                    print $calc * $var . "<br>";
                     echo $calc * $var;
                 }
 
