@@ -8,7 +8,7 @@
 ?>
 
 <!DOCTYPE html>
-    <html>
+<html xmlns="http://www.w3.org/1999/html">
         <head>
             <title>Hellooo ma' friend!</title>
         </head>
@@ -65,6 +65,32 @@
                     $myArray[1] = "la";
                 ?>
             </p>
+            <p>
+                <?php
+                    $specs = 7;
+                    $mugs = 7;
+                    $rolls = 7;
+                    $count = 1;
+                    do{
+                        $todayGood = rand(0, 2);
+                        if($todayGood == 0){
+                            print "On the " . $count . " of the month specs are available";
+                            $specs--;
+                        }
+                        if($todayGood == 1){
+                            print "On the " . $count . " of the month mugs are available";
+                            $mugs--;
+                        }
+                        if($todayGood == 2){
+                            print "On the " . $count . " of the month sausage rolls are available";
+                            $rolls--;
+                        }
+                        $count++;
+                    }while($mugs || $specs || $rolls == 0)
+                ?>
+            </p>
+
+
 
 
         </body>
