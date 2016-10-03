@@ -103,13 +103,12 @@
 
                 function wanted($name, $specs, $mugs, $rolls){
                     $calc = $specs*$mugs*$rolls;
-                    $award = 10*(square($calc)/2);
                     echo "Wanted: " . $name . "<br>";
                     echo "Known to be in possession of the following items:" . "<br>";
                     echo "Specs: (" . $specs . ")<br>";
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
-                    echo "Award for capture: £" . $award . "<br>";
+                    echo "Award for capture: £" . 10*(square($calc)/2) . "<br>";
                 }
 
                 wanted("Hristo Hristov", 2, 10, 8);
