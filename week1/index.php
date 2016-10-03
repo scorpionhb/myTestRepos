@@ -109,7 +109,7 @@
                     echo "Mugs: (" . $mugs . ")<br>";
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
-                    echo award($specs, $mugs, $rolls) . "<br>";
+                    echo award($specs, $mugs, $rolls) + $var . "<br>";
                     echo $var;
                 }
 
