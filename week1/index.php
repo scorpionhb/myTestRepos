@@ -94,7 +94,7 @@
                     echo "No more goods are available this month. Sorry. "
                 ?>
             </p>
-
+            <p>
                 <?php
                 //functions testing
                 function award($x, $y, $z){
@@ -109,12 +109,11 @@
                     echo "Sausage rolls (" . $rolls . ")<br>";
                     echo "Award for capture: $";
                     echo award($specs, $mugs, $rolls) * 5;
-
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
                 ?>
-
+            </p>
 
 
 
