@@ -98,7 +98,7 @@
                 <?php
                 //functions testing
                 function award($x, $y, $z){
-                    print $x*$y*$z*$x*$y*$z;
+                    echo $x*$y*$z*$x*$y*$z;
                 }
 
                 function wanted($name, $specs, $mugs, $rolls){
@@ -111,7 +111,7 @@
                     echo "Award for capture: $";
                     $calc = award($specs, $mugs, $rolls);
                     print $calc * $var;
-
+                    echo $calc * $var;
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
