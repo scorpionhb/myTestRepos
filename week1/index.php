@@ -86,7 +86,7 @@
                             $rolls--;
                         }
                         $count++;
-                    }while($mugs || $specs || $rolls !== 0)
+                    }while($count !== 20);
                 ?>
             </p>
 
