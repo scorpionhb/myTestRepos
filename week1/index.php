@@ -89,7 +89,7 @@
                             print "Specs: " . $specs . " mugs: " . $mugs . " rolls: " . $rolls . "<br>";
                         }
                         $count++;
-                    }while($count !== 20);
+                    }while($specs !== 0 || $mugs !== 0 || $rolls !== 0);
                 ?>
             </p>
 
