@@ -22,6 +22,7 @@
                     echo 5*7;
                     $myName = "Hristo Hristov";
                     $myAge = 20;
+                    echo "My name is " . $myName . " and I am " . $myAge . " years old.";
                 ?>
             </p>
         </body>
