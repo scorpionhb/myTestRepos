@@ -111,7 +111,7 @@
                     echo "Award for capture: $";
                     $calc = award($specs, $mugs, $rolls);
                     print $calc * $var . "<br>";
-                    echo $calc * $var;
+                    echo 10 * 5;
                 }
 
                 wanted("Hristo Hristov", 2, 1, 2);
