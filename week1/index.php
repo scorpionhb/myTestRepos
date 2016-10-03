@@ -17,7 +17,7 @@
                 <?php
                     echo "Hello World!";
                     echo "<p>Hello," . " " . "world" . "!!</p>";
-                    echo 5*7;
+                    echo 5*7 . "<br>";
                     $myName = "Hristo Hristov";
                     $myAge = 20;
                     echo "<br>" . "My name is " . $myName . " and I am " . $myAge . " years old.";
