@@ -66,6 +66,7 @@
                 ?>
             </p>
             <p>
+<!--                do-while loop-->
                 <?php
                     $specs = 7;
                     $mugs = 7;
@@ -93,7 +94,25 @@
                     echo "No more goods are available this month. Sorry. "
                 ?>
             </p>
+            <p>
+                <?php
+                //functions testing
+                function square($number){
+                    print $number*$number;
+                }
 
+                function($name, $specs, $mugs, $rolls){
+                    $calc = $specs*$mugs*$rolls;
+                    $award = 10*(square($calc)/2);
+                    echo "Wanted: " . $name . "<br>";
+                    echo "Known to be in possession of the following items:" . "<br>";
+                    echo "Specs: (" . $specs . ")<br>";
+                    echo "Mugs: (" . $mugs . ")<br>";
+                    echo "Sausage rolls (" . $rolls . ")<br>";
+                    echo "Award for capture: £" . $award . "<br>";
+                }
+                ?>
+            </p>
 
 
 
