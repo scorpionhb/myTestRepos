@@ -27,7 +27,7 @@
 
         //Processing the result
         while($row = $result->fetch_array()){
-            echo "<p> $row[yearReleased] . $row[title] . </p>";
+            echo "<p> $row[yearReleased]  $row[title]  </p>";
             echo "<p> </p>";
         }
 
