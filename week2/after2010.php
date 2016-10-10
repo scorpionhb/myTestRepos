@@ -22,7 +22,7 @@
     include("dbConnect.php");
 
     //Creating the query that is required for this page
-    $myQuery = "SELECT * FROM marvelmovies WHERE yearRelease > '2010'";
+    $myQuery = "SELECT * FROM marvelmovies WHERE yearRelease > 2010";
 
     //Collecting the query's result
     $result = $db->query($myQuery);
