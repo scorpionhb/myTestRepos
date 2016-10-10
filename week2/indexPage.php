@@ -22,15 +22,17 @@
         </p>
 
         <p>
-        If you want to see the list of MOVIES CREATED BY "MARVEL STUDIOS" click the following link:
+        If you want to see the list of ALL MOVIES CREATED BY "MARVEL STUDIOS" click the following link:
             <a href="http://testapphristo.azurewebsites.net/week2/marvelStudios.php">By Marvel Studios</a>
         </p>
 
-        <p>If you want to see the list of MOVIES CREATED AFTER 2010 click the following link:
+        <p>If you want to see the list of ALL MOVIES CREATED AFTER 2010 click the following link:
             <a href="http://testapphristo.azurewebsites.net/week2/after2010.php">After 2010</a>
         </p>
 
-
+        <p>If you want to see the list of ALL X-MEN FILMS click the following link:
+            <a href="http://testapphristo.azurewebsites.net/week2/xmen.php">All X-Men</a>
+        </p>
 
     </body>
 
