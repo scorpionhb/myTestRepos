@@ -17,8 +17,8 @@
 
         <header>This is the index page for the databases lab</header>
 
-        <p>If you want to see the list of ALL MOVIES click the link bellow:
-            <a href="allMovies.php">All Movies</a>
+        <p>If you want to see the list of ALL MOVIES click the following link:
+            <a href="http://testapphristo.azurewebsites.net/week2/allMovies.php">All Movies</a>
         </p>
 
 
