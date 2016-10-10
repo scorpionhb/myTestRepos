@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>All Movies</title>
+        <title>Marvel Studios</title>
     </head>
 
     <body>
@@ -20,7 +20,7 @@
     include("dbConnect.php");
 
     //The SQL query to show all movies by Marvel Studios
-    $sql_query = "SELECT * FROM marvelmovies WHERE productionStudio LIKE %Marvel Studios%";
+    $sql_query = "SELECT * FROM marvelmovies WHERE productionStudio = 'Marvel Studios'";
 
     //Collecting the result of the query
     $result = $db->query($sql_query);
