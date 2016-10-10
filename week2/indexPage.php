@@ -21,7 +21,7 @@
             <a href="http://testapphristo.azurewebsites.net/week2/allMovies.php">All Movies</a>
         </p>
         If you want to see the list of MOVIES CREATED BY "MARVEL STUDIOS" click the following link:
-            <a href="">By Marvel Studios</a>
+            <a href="http://testapphristo.azurewebsites.net/week2/marvelStudios.php">By Marvel Studios</a>
         <p>
 
         </p>
