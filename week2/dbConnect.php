@@ -14,9 +14,4 @@
     define('DB_DATABASE', 'hristo_db');
 
     $db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
-
-
-    if($db -> connect_errno){
-        die('Connect failed['.db > connect_error.']');
-    }
 ?>

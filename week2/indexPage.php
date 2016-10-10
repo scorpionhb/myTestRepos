@@ -17,6 +17,7 @@
 
         <h1>This is the index page for the databases lab</h1>
 
+    <!-- Creating the links to the other pages -->
         <p>If you want to see the list of ALL MOVIES click the following link:
             <a href="http://testapphristo.azurewebsites.net/week2/allMovies.php">All Movies</a>
         </p>
@@ -33,6 +34,7 @@
         <p>If you want to see the list of ALL X-MEN FILMS click the following link:
             <a href="http://testapphristo.azurewebsites.net/week2/xmen.php">All X-Men</a>
         </p>
+
 
     </body>
 
