@@ -15,9 +15,11 @@
 
     <body>
         <h1>Where would you like to say hello?</h1>
-        <a href="http://testapphristo.azurewebsites.net/week4/helloPrinter.php?query=Earth">Earth</a>
-        <a href="http://testapphristo.azurewebsites.net/week4/helloPrinter.php?query=Mars">Mars</a>
-        <a href="http://testapphristo.azurewebsites.net/week4/helloPrinter.php?query=Uranus">Uranus</a>
+        <ul>
+            <li><a href="http://testapphristo.azurewebsites.net/week4/helloPrinter.php?query=Earth">Earth</a></li>
+            <li><a href="http://testapphristo.azurewebsites.net/week4/helloPrinter.php?query=Mars">Mars</a></li>
+            <li><a href="http://testapphristo.azurewebsites.net/week4/helloPrinter.php?query=Uranus">Uranus</a></li>
+        </ul>
     </body>
 
 
