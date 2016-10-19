@@ -11,7 +11,8 @@
     </head>
     <body>
         <h2>Select the exercise that you want to check:</h2>
-        <a href="helloSelector.php">Ex.1 (Hello Selector)</a>
+        <a href="helloSelector.php">Ex.1 (Hello Selector)</a><br>
+        <a href="superheroForm.php">Ex.2 (Superhero Form)</a>
     </body>
 
 </html>
