@@ -19,6 +19,7 @@
             echo "Superhero details:<br>";
             echo "$firstName " . " $lastName " . " - $gender <br> " . "Power: $power";
         ?>
+        <img src="https://i.ytimg.com/vi/pU7PTWoTGvQ/maxresdefault.jpg"/>
     </body>
 
 </html>
