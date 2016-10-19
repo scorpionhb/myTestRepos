@@ -17,7 +17,7 @@
             $gender = $_POST["gender"];
             $power = $_POST["power"];
             echo "Superhero details:<br>";
-            echo "$firstName " . " $lastName " . " - $gender <br> " . "Power: $power<br>";
+            echo "$firstName " . " $lastName " . " - $gender <br> " . "Super Power: $power<br>";
         ?>
         <img src="https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1106/1106096-bigthumbnail.jpg"/>
     </body>
