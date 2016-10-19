@@ -16,7 +16,7 @@
         <?php
             $query = $_GET["query"];
             echo "Hello " . $query . "!";
-            echo "Hello"
+            echo "<p>Hello</p>"
         ?>
 
     </body>
