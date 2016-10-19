@@ -14,10 +14,13 @@
     </head>
 
     <body>
+        
+        <?php
+            $query = $_GET["query"];
+            echo "Hello " . $query . "!";
 
+        ?>
 
-
-        <h1>Hello </h1>
     </body>
 
 
