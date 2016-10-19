@@ -15,8 +15,9 @@
             $firstName = $_POST["firstName"];
             $lastName = $_POST["lastName"];
             $gender = $_POST["gender"];
+            $power = $_POST["power"];
             echo "Superhero details:<br>";
-            echo "$firstName " . " $lastName " . " - $gender ";
+            echo "$firstName " . " $lastName " . " - $gender <br> " . "Power: $power";
         ?>
     </body>
 
