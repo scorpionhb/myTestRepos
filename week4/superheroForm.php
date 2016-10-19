@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <h3>Please fill in  the form:</h3><br>
+        <h3>Please fill in  the form:</h3>
         <form action="superPrint.php" method="post">
             <label>First name:</label><input type="text" name="firstName">
             <label>Last name:</label><input type="text" name="lastName"><br>
