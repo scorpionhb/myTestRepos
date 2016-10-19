@@ -13,7 +13,7 @@
     <body>
         <form action="superPrint.php" method="post">
             <label>First name:</label><input type="text" name="firstName">
-            <label>Last name:</label><input type="text" name="lastName">
+            <label>Last name:</label><input type="text" name="lastName"><br>
             <input type="radio" name="gender" value="male">Male<br>
             <input type="radio" name="gender" value="female">Female<br>
         </form>
