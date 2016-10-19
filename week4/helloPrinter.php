@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
  * User: ACER
  * Date: 19/10/2016
- * Time: 19:38
  */
 ?>
 
@@ -18,8 +16,8 @@
         <?php
             $query = $_GET["query"];
             echo "Hello " . $query . "!";
+            echo "Hello"
         ?>
 
     </body>
-
 </html>
