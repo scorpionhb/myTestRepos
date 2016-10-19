@@ -16,7 +16,7 @@
     <body>
 
         <?php
-            $query = $_GET["kur"];
+            $query = $_GET["query"];
             echo "Hello " . $query . "!";
 
         ?>
