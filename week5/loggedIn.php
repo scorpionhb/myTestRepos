@@ -7,14 +7,7 @@
  */
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title>Logged In</title>
-    </head>
 
-    <body>
         <?php
             session_start();
             $accesslevel = $_COOKIE['access_level_cookie'];
@@ -35,8 +28,7 @@
 
 
         ?>
-    </body>
 
 
-</html>
+
 
