@@ -17,7 +17,7 @@
     <body>
         <form action="checkLogin.php" method="post">
             <label>Name:</label><br>
-            <input type="text" name="name">
+            <input type="text" name="name"><br>
             <label>Passoword:</label><br>
             <input type="password" name="password"><br>
             <input type="submit" name="Log In">
