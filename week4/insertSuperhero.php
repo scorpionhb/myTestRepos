@@ -14,7 +14,7 @@
         <?php
             include("dbConnect.php");
 
-    
+
         ?>
 
     </body>
