@@ -15,3 +15,7 @@ echo "
 </main>
 
 ";
+
+include("scripts/tinymce/footer.php");
+
+?>
