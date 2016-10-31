@@ -6,7 +6,7 @@
  * Time: 14:44
  */
 
-include ("scripts/tinymce/header.php");
+include("scripts/tinymce/header.php");
 
 echo "
 <main>

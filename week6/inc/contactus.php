@@ -6,7 +6,7 @@
  * Time: 14:58
  */
 
-include ("scripts/tinymce/header.php");
+include("scripts/tinymce/header.php");
 
 echo "
 <main>
@@ -14,6 +14,6 @@ echo "
 <p>Send me an email or call me</p>
 ";
 
-incude ("scripts/tinymce/footer.php");
+include("scripts/tinymce/footer.php");
  
 ?>
