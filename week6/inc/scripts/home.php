@@ -6,13 +6,13 @@
  * Time: 14:36
  */
 
-inlclude ("scripts/header.php");
+inlclude ("scripts/tinymce/header.php");
 
 echo "
 <main> 
 <p>Welcome to the blog of Applause! In this blog you will see that you want to see xD</p>";
 
-include("scripts/footer.php");
+include("scripts/tinymce/footer.php");
 
 ?>
 
