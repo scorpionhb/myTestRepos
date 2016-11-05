@@ -16,7 +16,7 @@
         <ul>
     ";
 
-    $sql = "SELECT * FROM blogArticles ";
+    $sql = "SELECT * FROM blogarticles ";
     $result = $db->query($sql);
     while ($row = $result->fetch_array()){
         $articleID = $row['articleID'];
