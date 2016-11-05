@@ -1,4 +1,4 @@
-<?php
+<?
 
 define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
 
@@ -21,9 +21,6 @@ $rules = array(
     // Home Page
     //
     'home' => "/"
-    //
-    // Style
-    //
 );
 
 $uri = rtrim(dirname($_SERVER["SCRIPT_NAME"]), '/');
