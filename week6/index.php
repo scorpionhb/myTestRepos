@@ -1,6 +1,6 @@
 <?
 
-define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
+define('INCLUDE_DIR', dirname(__FILE__) . 'week6/inc/');
 
 $rules = array(
     //
