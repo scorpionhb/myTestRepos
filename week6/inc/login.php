@@ -38,9 +38,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if (checklogin($username, $password, $db)) {
         session_start();
         $_SESSION['username'] = $username;
-        header("location:/index.php");
+        header("location:http://testapphristo.azurewebsites.net/week6/index.php");
     } else {
-        header("location:/index.php");
+        header("location:http://testapphristo.azurewebsites.net/week6/index.php");
     }
 
 } else {
