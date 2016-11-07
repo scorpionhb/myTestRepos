@@ -13,7 +13,7 @@ if(isset($_SESSION['username'])){
         <main>
             <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
             <script>tinymce.init({selector: 'textArea'})</script>
-            <form action="create_article" method="post">
+            <form action="createarticle" method="post">
                 <input type="text" name="articleName" placeholder="Article Name">
                 <textarea name="articleText"></textarea>
                 <input type="submit">
@@ -34,10 +34,9 @@ if(isset($_SESSION['username'])){
         } else {
             echo "Error: " . $sql . "<br>Error Message:" . mysqli_error($db);
         }
-        header("location:http://testapphristo.azurewebsites.net/week6/index.php");
+        header("blog");
     }
 //test
 } else {
-    header("location:http://testapphristo.azurewebsites.net/week6/index.php");
+    header("location:login");
 }
-?>
