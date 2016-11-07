@@ -20,7 +20,8 @@ $rules = array(
     //
     // Home Page
     //
-    'home' => "/"
+    'home' => "/",
+    'home' => "/index.php"
 );
 
 $uri = rtrim(dirname($_SERVER["SCRIPT_NAME"]), '/');
