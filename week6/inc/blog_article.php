@@ -5,7 +5,7 @@ $articleID = $params['blogID'];
 echo "
 <main>
 ";
-$sql = "SELECT * FROM blogarticles where articleID = '$articleID'";
+$sql = "SELECT * FROM blogarticles";
 $result = $db->query($sql);
 while($row = $result->fetch_array())
 {
