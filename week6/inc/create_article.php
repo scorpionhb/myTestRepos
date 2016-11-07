@@ -13,7 +13,7 @@ if(isset($_SESSION['username'])){
         <main>
             <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
             <script>tinymce.init({selector: 'textArea'})</script>
-            <form action="createarticle" method="post">
+            <form action="create_article" method="post">
                 <input type="text" name="articleName" placeholder="Article Name">
                 <textarea name="articleText"></textarea>
                 <input type="submit">
@@ -29,6 +29,11 @@ if(isset($_SESSION['username'])){
         $articleAuthor = $_SESSION['username'];
         $sql = "INSERT INTO blogarticles (articleID, articleName, articleText, articleAuthor) VALUE
         ('". $articleID ."', '" . $articleName."', '" . $articleText."', '" . $articleAuthor."')";
+
+        echo "Name " . $articleName;
+        echo "Text " . $articleText;
+        echo "Author " . $articleAuthor;
+        echo "ID " . $articleID;
 
         if (mysqli_query($db, $sql)){
         } else {
