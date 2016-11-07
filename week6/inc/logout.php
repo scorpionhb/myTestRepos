@@ -9,5 +9,5 @@ session_start();
 if (isset($_SESSION['username'])) {
     unset($_SESSION['username']);
 }
-header("location:./");
+header("location:http://testapphristo.azurewebsites.net/week6/index.php");
 ?>

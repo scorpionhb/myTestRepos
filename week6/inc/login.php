@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $_SESSION['username'] = $username;
         header("location: http://testapphristo.azurewebsites.net/week6/index.php");
     } else {
-        header("location: http://testapphristo.azurewebsites.net/week6/index.php");
+        header("location:login");
     }
 
 } else {
