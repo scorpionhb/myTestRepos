@@ -34,10 +34,10 @@ if(isset($_SESSION['username'])){
         } else {
             echo "Error: " . $sql . "<br>Error Message:" . mysqli_error($db);
         }
-        header("http://testapphristo.azurewebsites.net/week6/index.php");
+        header("blog");
     }
 //test
 } else {
-    header("location:login");
+    header("location:http://testapphristo.azurewebsites.net/week6/index.php");
 }
 ?>
