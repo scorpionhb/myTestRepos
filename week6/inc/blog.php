@@ -6,8 +6,8 @@
  * Time: 15:13
  */
 
-    include (scripts/dbConnect.php);
-    include (scripts/header.php);
+    include ("scripts/dbConnect.php");
+    include ("scripts/header.php");
 
     echo "
         <main>
