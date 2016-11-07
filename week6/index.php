@@ -21,7 +21,11 @@ $rules = array(
     // Home Page
     //
     'home' => "/",
-    'home' => "/index.php"
+    'home' => "/index.php",
+
+    'scripts/header' => "/header"
+
+
 );
 
 $uri = rtrim(dirname($_SERVER["SCRIPT_NAME"]), '/');

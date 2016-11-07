@@ -6,7 +6,7 @@
  * Time: 14:36
  */
 
-include ("scripts/header.php");
+include ("header");
 
 echo "
 <main> 
