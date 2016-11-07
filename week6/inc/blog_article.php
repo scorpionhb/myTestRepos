@@ -1,10 +1,13 @@
 <?php
 include ("scripts/dbconnect.php");
 include ("scripts/header.php");
+
 $articleID = $params['blogID'];
+
 echo "
 <main>
 ";
+
 $sql = "SELECT * FROM blogarticles";
 $result = $db->query($sql);
 while($row = $result->fetch_array())
@@ -13,12 +16,13 @@ while($row = $result->fetch_array())
     $articleName = $row['articleName'];
     $articleAuthor = $row['articleAuthor'];
     $articleText = $row['articleText'];
+
     echo "
-<atricle>
+<article>
     <h2>{$articleName}</h2>
     <h3>by {$articleAuthor}</h3>
     {$articleText}
-    </atricle>";
+    </article>";
 }
 echo "
 </main>
