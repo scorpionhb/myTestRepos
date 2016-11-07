@@ -14,6 +14,6 @@ echo "
 <p>Send me an email or call me</p>
 ";
 
-include("scripts/tinymce/footer.php");
+include("scripts/footer.php");
  
 ?>

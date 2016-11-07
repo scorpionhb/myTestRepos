@@ -16,6 +16,6 @@ echo "
 
 ";
 
-include("scripts/tinymce/footer.php");
+include("scripts/footer.php");
 
 ?>
