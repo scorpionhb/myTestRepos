@@ -30,9 +30,9 @@ if(isset($_SESSION['username'])){
         $sql = "INSERT INTO blogarticles (articleID, articleName, articleText, articleAuthor) VALUE
         ('". $articleID ."', '" . $articleName."', '" . $articleText."', '" . $articleAuthor."')";
 
-        echo "Name " . $articleName . "<br>";
-        echo "Text " . $articleText. "<br>";
-        echo "Author " . $articleAuthor. "<br>";
+        echo "Name " . $articleName;
+        echo "Text " . $articleText;
+        echo "Author " . $articleAuthor;
         echo "ID " . $articleID;
 
         if (mysqli_query($db, $sql)){
