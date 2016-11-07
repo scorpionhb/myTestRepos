@@ -34,7 +34,7 @@ if(isset($_SESSION['username'])){
         } else {
             echo "Error: " . $sql . "<br>Error Message:" . mysqli_error($db);
         }
-        header("blog");
+        header("location:http://testapphristo.azurewebsites.net/week6/index.php");
     }
 //test
 } else {
