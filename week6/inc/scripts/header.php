@@ -13,6 +13,7 @@ session_start();
     <head>
         <meta charset="utf-8">
         <title>The Blog of Applause</title>
+        <link rel="stylesheet" type="text/css" href="headerStyle.css">
     </head>
 
     <body>
