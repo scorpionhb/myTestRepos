@@ -24,8 +24,6 @@
             } else {
                 echo "Wrong credentials!";
                 echo "SkandaY sa gospodi!";
-                header('Location: index.php');
-
             }
 
 
