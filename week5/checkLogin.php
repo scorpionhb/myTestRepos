@@ -24,6 +24,7 @@
             } else {
                 echo "Wrong credentials!";
                 echo "SkandaY sa gospodi!";
+                header( "Refresh:5; url=http://testapphristo.azurewebsites.net/week5/index.php", true, 303);
             }
 
 
