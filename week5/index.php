@@ -20,7 +20,7 @@
             <input type="text" name="name"><br>
             <label>Passoword:</label><br>
             <input type="password" name="password"><br>
-            <input type="submit" name="submit" value="Log In" action="checkLogin.php">
+            <input type="submit" name="submit" value="Log In">
         </form>
     </body>
 
