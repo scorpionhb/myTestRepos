@@ -22,9 +22,10 @@
                 setcookie('access_level_cookie', 'standarduser');
                 header('Location: loggedIn.php');
             } else {
-                header('Location: index.php');
                 echo "Wrong credentials!";
                 echo "SkandaY sa gospodi!";
+                header('Location: index.php');
+
             }
 
 

@@ -15,6 +15,12 @@
     </head>
 
     <body>
+    <?php
+    if($username != "username" && $password != "password"){
+        echo "Wrong credentials!";
+        echo "SkandaY sa gospodi!";
+    }
+    ?>
         <form action="checkLogin.php" method="post">
             <label>Name:</label><br>
             <input type="text" name="name"><br>
