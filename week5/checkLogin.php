@@ -20,8 +20,9 @@
 
             if($username == "username" && $password == "password"){
                 setcookie('access_level_cookie', 'standarduser');
+                header('Location: loggedIn.php');
             }
-            header('Location: loggedIn.php');
+
 
         ?>
 
